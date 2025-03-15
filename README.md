@@ -50,7 +50,7 @@ BASE_URL=http://host.docker.internal:5000
    Endpoint:<br>
    GET - http://localhost:5000/fetch-instagram<br>
 Response:<br>
-{
+{<br>
   "caption": "Relatives of some of Mexico's thousands of disappeared people hoped to find signs of their missing loved ones at a Mexican cartel 'extermination' site. \n \nUp to 200 pairs of shoes, hundreds of items of clothing, scores of suitcases and rucksacks were found at Izaguirre Ranch, after the owners themselves were apparently disposed of.\n \nSeveral ovens and human bone fragments were also found.\n \nThe site was used, activists claim, by the New Generation Jalisco Cartel (CJNG) for the forced recruitment and training of their foot-soldiers, and for torturing their victims and cremating their bodies.\n \nThe place is now crawling with police officers, federal investigators and forensics teams in dust overalls.\n \nTap the link in @BBCNews's bio to read more about the investigation.\n(📷 Getty Images)\n \n#Mexico #BBCNews",<br>
   "imageUrl": "https://instagram.fhyd7-1.fna.fbcdn.net/v/t39.30808-6/484164394_1114930220670969_3846152498680965207_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=instagram.fhyd7-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2AEfkbqaRp9FZnRMrFVWirGq7VaF6BlhFODl-uoE1pucQuvDSDR0TU5XVPZuedh-_Fw&_nc_ohc=1cmhm8l5G_4Q7kNvgFhqJ3v&_nc_gid=M1z8awGDdUT8gCoazEgCtw&edm=AOQ1c0wAAAAA&ccb=7-5&oh=00_AYGscvSRAnVQX-BLRWfbm1XcWCAtYdKCzO7A1Y0wxE-2UA&oe=67DB6E1B&_nc_sid=8b3546"
 }<br>
@@ -62,11 +62,11 @@ Response:<br>
 
    json - body<br>
 
-   {
+   {<br>
      "caption": "Mahmoud Khalil, a prominent figure during the Gaza war protests at Columbia University in the spring of 2024, has drawn global attention..."
    }<br>
    Response:<br>
-   {
+   {<br>
     "summarized_caption": "Mahmoud Khalil was a prominent figure during the Gaza war protests at Columbia University in the spring of 2024. He has drawn global attention for his role in the protests. Khalil is expected to appear on CNN's \"Larry King Live\" at 10 p.m. ET on Monday."
    }<br>
    
@@ -74,21 +74,21 @@ Response:<br>
    Endpoint:<br>
    POST - http://localhost:5000/tweet<br>
    Request:<br>
-   {
+   {<br>
      "caption": "Mahmoud Khalil, a prominent figure during the Gaza war protests at Columbia University in the spring of 2024, has drawn global attention..."
    }<br>
    Response:<br>
-   {
+   {<br>
     "message": "Tweet posted successfully!",
-    "tweet": {
-        "data": {
+    "tweet": {<br>
+        "data": {<br>
             "text": "Mahmoud Khalil, a prominent figure during the Gaza war protests at Columbia University in the spring of 2024, has drawn global attention...",
             "edit_history_tweet_ids": [
                 "1900880656227594383"
             ],
-            "id": "1900880656227594383"
-        }
-    }
+            "id": "1900880656227594383"<br>
+        }<br>
+    }<br>
 }<br>
 
 ### Testing
