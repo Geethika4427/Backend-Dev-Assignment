@@ -1,0 +1,3 @@
+git-filter-repo==2.45.0
+pgxnclient==1.3.2
+six==1.17.0
